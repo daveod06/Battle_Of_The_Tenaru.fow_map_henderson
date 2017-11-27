@@ -1,0 +1,637 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=96;
+	};
+	class Camera
+	{
+		pos[]={3699.1272,45.815269,4110.3101};
+		dir[]={-0.96154588,-0.22759031,0.15414648};
+		up[]={-0.22476399,0.97374475,0.036031198};
+		aside[]={0.15830056,3.1481613e-007,0.98745424};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"fow_characters_c",
+	"fow_cannons_c",
+	"fow_mortars_c",
+	"fow_statics_c",
+	"fow_tanks_c",
+	"fow_trucks_c",
+	"A3_Static_F_Mortar_01",
+	"mas_ww2_weapons",
+	"fow_munitions_c",
+	"fow_structures_p_c",
+	"mas_ww2_army_FlagCarriers",
+	"fow_boats_c"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=12;
+		class Item0
+		{
+			className="fow_characters_c";
+			name="fow_characters_c";
+		};
+		class Item1
+		{
+			className="fow_cannons_c";
+			name="fow_cannons_c";
+		};
+		class Item2
+		{
+			className="fow_mortars_c";
+			name="fow_mortars_c";
+		};
+		class Item3
+		{
+			className="fow_statics_c";
+			name="fow_statics_c";
+		};
+		class Item4
+		{
+			className="fow_tanks_c";
+			name="fow_tanks_c";
+		};
+		class Item5
+		{
+			className="fow_trucks_c";
+			name="fow_trucks_c";
+		};
+		class Item6
+		{
+			className="A3_Static_F";
+			name="Arma 3 Alpha - Turrets";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item7
+		{
+			className="mas_ww2_weapons";
+			name="mas_ww2_weapons";
+			author="massi & authors in credits";
+		};
+		class Item8
+		{
+			className="fow_munitions_c";
+			name="fow_munitions_c";
+		};
+		class Item9
+		{
+			className="fow_structures_p_c";
+			name="fow_structures_p_c";
+		};
+		class Item10
+		{
+			className="mas_ww2_army_FlagCarriers";
+			name="mas_ww2_army_FlagCarriers";
+			author="massi & authors in credits";
+		};
+		class Item11
+		{
+			className="fow_boats_c";
+			name="fow_boats_c";
+		};
+	};
+};
+randomSeed=4894940;
+class ScenarioData
+{
+	author="SaberSnack";
+};
+class Mission
+{
+	class Intel
+	{
+		resistanceWest=0;
+		timeOfChanges=1800.0002;
+		startFog=0.0099999998;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.0099999998;
+		forecastFog=0.0099999998;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=1942;
+		month=8;
+		day=7;
+		hour=10;
+		minute=0;
+		startFogBase=200;
+		forecastFogBase=200;
+		startFogDecay=0.0099999998;
+		forecastFogDecay=0.0099999998;
+	};
+	class Entities
+	{
+		items=24;
+		class Item0
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=9;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3640.2671,12.001439,4119.6108};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=4;
+					type="fow_s_ija_crewman";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3640.7068,12.001439,4122.6909};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=5;
+					type="fow_s_ija_pilot";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3637.6418,12.001439,4125.6426};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=6;
+					type="fow_s_ija_rifleman";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3637.8521,12.001439,4127.3501};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=7;
+					type="fow_s_ija_rifleman_at";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3638.6799,12.001439,4129.478};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=8;
+					type="fow_s_ija_officer";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3639.7449,12.001439,4131.6143};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=9;
+					type="fow_s_ija_nco";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3640.1814,12.001439,4132.5151};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=10;
+					type="fow_s_ija_medic";
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3641.1096,12.001439,4134.1934};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=11;
+					type="fow_s_ija_type99_gunner";
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3642.3157,12.001439,4136.4502};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=12;
+					type="fow_s_ija_type99_asst";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3634.7813,13.501895,4124.1182};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1;
+			type="fow_w_6Pounder_ija";
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3632.6816,13.022942,4119.0112};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=15;
+			type="fow_w_type97_mortar_ija";
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3626.9102,11.999714,4126.7227};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=17;
+			type="fow_w_type92_tripod_ija";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3630.4712,12.002139,4130.1997};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=19;
+			type="fow_w_type92_tripod_low_s_ija";
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3632.6313,12.002139,4131.3931};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=21;
+			type="fow_w_type92_tripod_low_ija";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3621.1062,14.088083,4120.1377};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=23;
+			type="fow_ija_type95_HaGo_1_ija";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3627.0559,14.088083,4120.2065};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=28;
+			type="fow_ija_type95_HaGo_2_ija";
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3625.8313,14.088083,4113.8311};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=33;
+			type="fow_ija_type95_HaGo_3_ija";
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3636.3354,13.822964,4114.8506};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=38;
+			type="fow_v_type97_truck_fuel_ija";
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3641.7502,13.822964,4113.8643};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=40;
+			type="fow_v_type97_truck_ija";
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3646.0601,13.822964,4113.9092};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=42;
+			type="fow_v_type97_truck_open_ija";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3650.3638,13.822964,4114.7202};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=44;
+			type="fow_v_type97_truck_utility_ija";
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3630.8188,12.721626,4125.0083};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=46;
+			type="B_G_Mortar_01_F";
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3628.3142,11.990209,4133.2896};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=48;
+			type="Box_mas_ww2_O_jap_Wps_F";
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3626.967,11.999713,4132.0527};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=49;
+			type="FOW_AB_IJA_Crate_20mm";
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3624.4919,11.974599,4131.0879};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=50;
+			type="fow_ab_ija_81mm_type97_HE";
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3624.9177,11.999893,4133.2388};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=51;
+			type="FOW_AB_IJA_Crate_Generic";
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3626.1943,11.999893,4133.3618};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=52;
+			type="FOW_AB_IJA_Crate_Generic_P";
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3623.4224,12.628379,4132.2358};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=69;
+			type="fow_p_ija_type001_hoki_radio";
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3622.7383,12.542616,4132.9717};
+				angles[]={0,4.6203246,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=74;
+			type="fow_JapSigns_Dangerous";
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3622.8262,12.541283,4133.5942};
+				angles[]={0,4.781558,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=75;
+			type="fow_JapSigns_DontTouch";
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3622.3889,15.976805,4135.0938};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=76;
+			type="mas_ww2_FlagCarrier_jap";
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3651.2727,13.81571,4127.896};
+				angles[]={-0,3.5752993,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=92;
+			type="fow_usmc_lcvp";
+		};
+	};
+};

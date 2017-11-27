@@ -1,0 +1,1182 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=513;
+	class ItemIDProvider
+	{
+		nextID=118;
+	};
+	class Camera
+	{
+		pos[]={3642.7432,15.12765,4128.9258};
+		dir[]={-0.88901454,-0.35923329,-0.28419033};
+		up[]={-0.3422164,0.93322831,-0.10939573};
+		aside[]={-0.3045119,6.7173096e-007,0.95259482};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"fow_characters_c",
+	"fow_boats_c",
+	"fow_cannons_c",
+	"fow_mortars_c",
+	"fow_statics_c",
+	"fow_tanks_c",
+	"fow_tracked_c",
+	"fow_trucks_c",
+	"fow_cars_c",
+	"WW2_Assets_c_Vehicles_StaticWeapons_c",
+	"WW2_Core_c_WW2_EditorPreviews_c",
+	"WW2_Assets_c_Vehicles_StaticWeapons_c_Towing",
+	"WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3",
+	"WW2_Assets_c_Vehicles_ModelConfig_c",
+	"WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB",
+	"WW2_Assets_c_Vehicles_Wheeled_c_GMC",
+	"WW2_Assets_c_Vehicles_Extended_HUD_c",
+	"WW2_Core_c_WW2_Core_c_Explosion",
+	"WW2_Assets_c_Vehicles_Boats_c_LCVP",
+	"WW2_Core_c_WW2_Core_c_Eventhandlers",
+	"WW2_Assets_c_Vehicles_TurretsConfig_c",
+	"WW2_Assets_s_Megagoth1702_Sounds_Config_CfgVehicles",
+	"WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack",
+	"WW2_Assets_c_Vehicles_Tanks_c_M4A3_75",
+	"WW2_Assets_c_Vehicles_Tanks_c_M3_Stuart",
+	"WW2_Assets_c_Characters_Americans_c_US_Army",
+	"WW2_Assets_c_Vehicles_Planes_c_P39",
+	"WW2_Assets_c_Vehicles_Planes_c_C47",
+	"WW2_Assets_c_Vehicles_SoundFrameWork_c",
+	"WW2_Assets_c_Vehicles_Planes_c_P47",
+	"rhsusf_c_statics",
+	"A3_Static_F_Mortar_01"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=32;
+		class Item0
+		{
+			className="fow_characters_c";
+			name="fow_characters_c";
+		};
+		class Item1
+		{
+			className="fow_boats_c";
+			name="fow_boats_c";
+		};
+		class Item2
+		{
+			className="fow_cannons_c";
+			name="fow_cannons_c";
+		};
+		class Item3
+		{
+			className="fow_mortars_c";
+			name="fow_mortars_c";
+		};
+		class Item4
+		{
+			className="fow_statics_c";
+			name="fow_statics_c";
+		};
+		class Item5
+		{
+			className="fow_tanks_c";
+			name="fow_tanks_c";
+		};
+		class Item6
+		{
+			className="fow_tracked_c";
+			name="fow_tracked_c";
+		};
+		class Item7
+		{
+			className="fow_trucks_c";
+			name="fow_trucks_c";
+		};
+		class Item8
+		{
+			className="fow_cars_c";
+			name="fow_cars_c";
+		};
+		class Item9
+		{
+			className="WW2_Assets_c_Vehicles_StaticWeapons_c";
+			name="WW2_Assets_c_Vehicles_StaticWeapons_c";
+		};
+		class Item10
+		{
+			className="WW2_Core_c_WW2_EditorPreviews_c";
+			name="WW2_Core_c_WW2_EditorPreviews_c";
+		};
+		class Item11
+		{
+			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Towing";
+			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Towing";
+		};
+		class Item12
+		{
+			className="WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3";
+			name="WW2_Assets_c_Vehicles_Wheeled_c_Scout_M3";
+		};
+		class Item13
+		{
+			className="WW2_Assets_c_Vehicles_ModelConfig_c";
+			name="WW2_Assets_c_Vehicles_ModelConfig_c";
+		};
+		class Item14
+		{
+			className="WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB";
+			name="WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB";
+		};
+		class Item15
+		{
+			className="WW2_Assets_c_Vehicles_Wheeled_c_GMC";
+			name="WW2_Assets_c_Vehicles_Wheeled_c_GMC";
+		};
+		class Item16
+		{
+			className="WW2_Assets_c_Vehicles_Extended_HUD_c";
+			name="WW2_Assets_c_Vehicles_Extended_HUD_c";
+		};
+		class Item17
+		{
+			className="WW2_Core_c_WW2_Core_c_Explosion";
+			name="WW2_Core_c_WW2_Core_c_Explosion";
+		};
+		class Item18
+		{
+			className="WW2_Assets_c_Vehicles_Boats_c_LCVP";
+			name="WW2_Assets_c_Vehicles_Boats_c_LCVP";
+		};
+		class Item19
+		{
+			className="WW2_Core_c_WW2_Core_c_Eventhandlers";
+			name="WW2_Core_c_WW2_Core_c_Eventhandlers";
+		};
+		class Item20
+		{
+			className="WW2_Assets_c_Vehicles_TurretsConfig_c";
+			name="WW2_Assets_c_Vehicles_TurretsConfig_c";
+		};
+		class Item21
+		{
+			className="WW2_Assets_s_Megagoth1702_Sounds_Config_CfgVehicles";
+			name="WW2_Assets_s_Megagoth1702_Sounds_Config_CfgVehicles";
+		};
+		class Item22
+		{
+			className="WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack";
+			name="WW2_Assets_c_Vehicles_WheeledAPC_c_M3_Halftrack";
+		};
+		class Item23
+		{
+			className="WW2_Assets_c_Vehicles_Tanks_c_M4A3_75";
+			name="WW2_Assets_c_Vehicles_Tanks_c_M4A3_75";
+		};
+		class Item24
+		{
+			className="WW2_Assets_c_Vehicles_Tanks_c_M3_Stuart";
+			name="WW2_Assets_c_Vehicles_Tanks_c_M3_Stuart";
+		};
+		class Item25
+		{
+			className="WW2_Assets_c_Characters_Americans_c_US_Army";
+			name="WW2_Assets_c_Characters_Americans_c_US_Army";
+		};
+		class Item26
+		{
+			className="WW2_Assets_c_Vehicles_Planes_c_P39";
+			name="WW2_Assets_c_Vehicles_Planes_c_P39";
+		};
+		class Item27
+		{
+			className="WW2_Assets_c_Vehicles_Planes_c_C47";
+			name="WW2_Assets_c_Vehicles_Planes_c_C47";
+		};
+		class Item28
+		{
+			className="WW2_Assets_c_Vehicles_SoundFrameWork_c";
+			name="WW2_Assets_c_Vehicles_SoundFrameWork_c";
+		};
+		class Item29
+		{
+			className="WW2_Assets_c_Vehicles_Planes_c_P47";
+			name="WW2_Assets_c_Vehicles_Planes_c_P47";
+		};
+		class Item30
+		{
+			className="rhsusf_c_statics";
+			name="RHSUSF Static Weapons";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item31
+		{
+			className="A3_Static_F";
+			name="Arma 3 Alpha - Turrets";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=2059986;
+class ScenarioData
+{
+	author="SaberSnack";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startFog=0.0099999998;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.0099999998;
+		forecastFog=0.0099999998;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=1942;
+		month=8;
+		day=7;
+		hour=10;
+		minute=0;
+		startFogBase=200;
+		forecastFogBase=200;
+		startFogDecay=0.0099999998;
+		forecastFogDecay=0.0099999998;
+	};
+	class Entities
+	{
+		items=39;
+		class Item0
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=17;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3622.873,13.817149,4131.4209};
+						angles[]={6.2826972,0,0};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=10;
+					type="fow_s_usmc_coxswain";
+					atlOffset=1.2936716;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3633.0769,12.001439,4129.4478};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=14;
+					type="fow_s_usmc_coxswain";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3635.0417,12.001439,4129.4082};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=15;
+					type="fow_s_usmc_crewman";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3639.3237,12.001439,4129.5239};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=16;
+					type="fow_s_usmc_at_asst";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3641.1536,12.001439,4128.8975};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=17;
+					type="fow_s_usmc_bar_asst";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3642.634,12.001439,4128.4741};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=19;
+					type="fow_s_usmc_m1919a6_asst";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3644.072,12.001439,4126.4482};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=20;
+					type="fow_s_usmc_at";
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3644.8655,12.001439,4124.5991};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=21;
+					type="fow_s_usmc_bar_gunner";
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3646.6277,12.001439,4122.1514};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=22;
+					type="fow_s_usmc_m1919a6_gunner";
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3647.1492,12.001439,4120.5571};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=23;
+					type="fow_s_usmc_medic";
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3649.3335,12.001439,4118.4111};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=24;
+					type="fow_s_usmc_nco";
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3650.8074,12.001439,4117.2588};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=25;
+					type="fow_s_usmc_rifleman_ithaca37";
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3652.0444,12.001439,4115.7817};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=27;
+					type="fow_s_usmc_rifleman_m1_carbine";
+				};
+				class Item13
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3653.2983,12.001439,4113.5928};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=28;
+					type="fow_s_usmc_rifleman";
+				};
+				class Item14
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3654.1931,12.001439,4112.0229};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=29;
+					type="fow_s_usmc_rifleman_m1903";
+				};
+				class Item15
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3654.9448,12.001439,4110.6978};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=30;
+					type="fow_s_usmc_rifleman_m1912";
+				};
+				class Item16
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3656.2292,12.001439,4109.7261};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=31;
+					type="fow_s_usmc_teamleader";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=10;
+						item1=7;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={1};
+						};
+					};
+				};
+			};
+			id=6;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3622.873,13.81571,4131.3711};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=7;
+			type="fow_usmc_lcvp";
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3629.3782,13.501895,4129.3633};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=11;
+			type="fow_w_6Pounder_usmc";
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3628.1211,13.038675,4122.292};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=33;
+			type="fow_w_m2_mortar_usmc";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3630.0593,12.000477,4122.125};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=41;
+			type="fow_w_m1919_tripod_usmc";
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3631.4556,11.994989,4121.4106};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=45;
+			type="fow_w_m1919a6_deployed_high_usmc";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3632.8838,11.995421,4120.7124};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=47;
+			type="fow_w_m1919a6_deployed_usmc";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3634.7246,11.996478,4120.0142};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=49;
+			type="fow_w_m1919a6_deployed_middle_usmc";
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3638.3806,12.053718,4118.6304};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=51;
+			type="fow_v_m4a2_usmc";
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3643.0095,12.060565,4117.375};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=57;
+			type="fow_v_m5a1_usmc";
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3647.2517,14.267749,4113.6543};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=62;
+			type="fow_v_lvta2_usmc";
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3652.5774,12.024213,4108.2773};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=66;
+			type="fow_v_gmc_usmc";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3656.6685,12.024213,4104.6201};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=68;
+			type="fow_v_gmc_open_usmc";
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3660.6934,12.108277,4102.501};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=70;
+			type="fow_v_willys_usmc";
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3635.5386,12.000477,4151.1636};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=73;
+			type="LIB_M1919_M2";
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3638.437,12.981192,4149.8135};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=75;
+			type="LIB_M2_60";
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3642.7756,13.059916,4149.5322};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=77;
+			type="LIB_US_Scout_M3";
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3647.4165,13.325563,4149.689};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=83;
+			type="LIB_US_Willys_MB";
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3632.2649,13.224953,4147.7549};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=85;
+			type="LIB_US_GMC_Tent";
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3627.6877,13.575599,4147.5786};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=87;
+			type="LIB_US_GMC_Ambulance";
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3622.9106,13.224953,4146.5991};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=88;
+			type="LIB_US_GMC_Ammo";
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3618.5962,12.747931,4146.814};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=89;
+			type="LIB_US_GMC_Fuel";
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3613.6321,13.224953,4147.5112};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=90;
+			type="LIB_US_GMC_Open";
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3608.498,12.633162,4146.6416};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=91;
+			type="LIB_US_GMC_Parm";
+			atlOffset=-9.5367432e-007;
+		};
+		class Item24
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3654.1245,12.475,4148.4097};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=92;
+			type="LIB_LCVP";
+		};
+		class Item25
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3661.1726,12.072741,4150.0757};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=93;
+			type="LIB_US_M3_Halftrack";
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3666.2356,12.001956,4150.4189};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=94;
+			type="LIB_US_NAC_M4A3_75";
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3670.3142,11.995053,4150.7583};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=95;
+			type="LIB_M3A3_Stuart";
+		};
+		class Item28
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3673.9905,12.001956,4151.5313};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=96;
+			type="LIB_M4A3_75";
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3678.4187,12.001956,4151.2046};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=97;
+			type="LIB_M4A3_75_Tubes";
+		};
+		class Item30
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3683.5427,11.992863,4151.0615};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=100;
+			type="LIB_M5A1_Stuart";
+		};
+		class Item31
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3664.8813,12.001439,4157.834};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=102;
+					type="LIB_US_tank_crew";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3667.8179,12.001439,4158.4404};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=103;
+					type="LIB_US_tank_second_lieutenant";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3669.6453,12.001439,4158.5073};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=104;
+					type="LIB_US_tank_sergeant";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3661.9036,12.001439,4159.5464};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=112;
+					type="LIB_US_pilot";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=101;
+		};
+		class Item32
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3650.7939,13.879846,4167.6909};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=105;
+			type="LIB_US_NAC_P39_2";
+		};
+		class Item33
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3633.4619,14.842335,4167.0894};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=108;
+			type="LIB_C47_Skytrain";
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3665.6299,13.879846,4172.1401};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=110;
+			type="LIB_US_P39_2";
+		};
+		class Item35
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3676.8442,13.490455,4169.8428};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=111;
+			type="LIB_P47";
+		};
+		class Item36
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3631.7373,13.678666,4124.4961};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=115;
+			type="RHS_M2StaticMG_D";
+		};
+		class Item37
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3633.604,11.992734,4123.897};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=116;
+			type="RHS_M2StaticMG_MiniTripod_D";
+		};
+		class Item38
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3626.1335,12.721626,4122.5132};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=117;
+			type="B_Mortar_01_F";
+		};
+	};
+};

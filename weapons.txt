@@ -1,0 +1,507 @@
+comment "M1903 Rifleman";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+for "_i" from 1 to 8 do {this addItemToUniform "LIB_5Rnd_762x63";};
+for "_i" from 1 to 3 do {this addItemToUniform "LIB_5Rnd_762x63_t";};
+this addVest "fow_v_usmc_garand";
+for "_i" from 1 to 3 do {this addItemToVest "FirstAidKit";};
+for "_i" from 1 to 3 do {this addItemToVest "LIB_7Rnd_45ACP";};
+this addItemToVest "LIB_5Rnd_762x63_t";
+for "_i" from 1 to 2 do {this addItemToVest "LIB_US_Mk_2";};
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "LIB_M1903A3_Springfield";
+this addWeapon "LIB_Colt_M1911";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+
+
+
+
+
+
+comment "M1903 Sniper";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+for "_i" from 1 to 11 do {this addItemToUniform "LIB_5Rnd_762x63";};
+this addVest "fow_v_usmc_garand";
+for "_i" from 1 to 3 do {this addItemToVest "FirstAidKit";};
+for "_i" from 1 to 3 do {this addItemToVest "LIB_7Rnd_45ACP";};
+for "_i" from 1 to 2 do {this addItemToVest "LIB_US_Mk_2";};
+for "_i" from 1 to 6 do {this addItemToVest "LIB_5Rnd_762x63";};
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "LIB_M1903A4_Springfield";
+this addWeapon "LIB_Colt_M1911";
+this addWeapon "Binocular";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+
+
+
+
+
+comment "BAR Autorifleman";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+for "_i" from 1 to 3 do {this addItemToUniform "LIB_20Rnd_762x63";};
+this addItemToUniform "LIB_7Rnd_45ACP";
+this addVest "fow_v_usmc_garand";
+this addItemToVest "LIB_7Rnd_45ACP";
+for "_i" from 1 to 2 do {this addItemToVest "LIB_US_Mk_2";};
+for "_i" from 1 to 7 do {this addItemToVest "LIB_20Rnd_762x63";};
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "LIB_M1918A2_BAR";
+this addWeapon "LIB_Colt_M1911";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+
+
+
+
+
+
+comment "Assistant BAR gunner";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+for "_i" from 1 to 8 do {this addItemToUniform "LIB_5Rnd_762x63";};
+for "_i" from 1 to 2 do {this addItemToUniform "LIB_7Rnd_45ACP";};
+this addVest "fow_v_usmc_garand";
+for "_i" from 1 to 3 do {this addItemToVest "FirstAidKit";};
+for "_i" from 1 to 2 do {this addItemToVest "LIB_US_Mk_2";};
+for "_i" from 1 to 3 do {this addItemToVest "LIB_20Rnd_762x63";};
+this addBackpack "fow_b_us_m1928";
+for "_i" from 1 to 3 do {this addItemToBackpack "LIB_20Rnd_762x63";};
+for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShell";};
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "LIB_M1903A3_Springfield";
+this addWeapon "LIB_Colt_M1911";
+this addWeapon "Binocular";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+
+
+
+
+comment "M1919 Machinegunner";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+this addItemToUniform "FirstAidKit";
+for "_i" from 1 to 4 do {this addItemToUniform "LIB_7Rnd_45ACP";};
+this addVest "fow_v_usmc_garand";
+for "_i" from 1 to 2 do {this addItemToVest "LIB_US_Mk_2";};
+for "_i" from 1 to 3 do {this addItemToVest "LIB_50Rnd_762x63";};
+this addBackpack "fow_b_usmc_m1928_02";
+for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
+for "_i" from 1 to 2 do {this addItemToBackpack "LIB_50Rnd_762x63";};
+this addItemToBackpack "LIB_US_Mk_2";
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "LIB_M1919A4";
+this addWeapon "LIB_Colt_M1911";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+
+
+
+
+comment "Assistant M1919 gunner";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+for "_i" from 1 to 8 do {this addItemToUniform "LIB_5Rnd_762x63";};
+for "_i" from 1 to 2 do {this addItemToUniform "LIB_7Rnd_45ACP";};
+this addVest "fow_v_usmc_garand";
+for "_i" from 1 to 3 do {this addItemToVest "FirstAidKit";};
+for "_i" from 1 to 2 do {this addItemToVest "LIB_US_Mk_2";};
+for "_i" from 1 to 3 do {this addItemToVest "LIB_20Rnd_762x63";};
+this addBackpack "fow_b_us_m1928";
+for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShell";};
+for "_i" from 1 to 3 do {this addItemToBackpack "LIB_50Rnd_762x63";};
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "LIB_M1903A3_Springfield";
+this addWeapon "LIB_Colt_M1911";
+this addWeapon "Binocular";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+
+
+
+
+
+comment "Crewman Reising";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+for "_i" from 1 to 2 do {this addItemToUniform "fow_20Rnd_45acp";};
+this addItemToUniform "LIB_7Rnd_45ACP";
+this addVest "fow_v_usmc_45";
+this addItemToVest "FirstAidKit";
+this addItemToVest "fow_20Rnd_45acp";
+this addItemToVest "LIB_7Rnd_45ACP";
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "fow_w_m55_reising";
+this addWeapon "LIB_Colt_M1911";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+
+
+
+
+
+
+
+comment "Crewman Reising hat";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+for "_i" from 1 to 2 do {this addItemToUniform "fow_20Rnd_45acp";};
+this addItemToUniform "LIB_7Rnd_45ACP";
+this addVest "fow_v_usmc_45";
+this addItemToVest "FirstAidKit";
+this addItemToVest "fow_20Rnd_45acp";
+this addItemToVest "LIB_7Rnd_45ACP";
+this addHeadgear "fow_h_us_daisy_mae_01";
+
+comment "Add weapons";
+this addWeapon "fow_w_m55_reising";
+this addWeapon "LIB_Colt_M1911";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+
+comment "Set identity";
+this setFace "WhiteHead_15";
+this setSpeaker "rhs_male01rus";
+[this,"Jets_ID"] call bis_fnc_setUnitInsignia;
+
+
+
+
+
+
+
+comment "NCO";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+this addItemToUniform "LIB_50Rnd_45ACP";
+this addVest "fow_v_usmc_thompson_nco";
+this addItemToVest "FirstAidKit";
+this addItemToVest "LIB_50Rnd_45ACP";
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 3 do {this addItemToVest "LIB_1Rnd_flare_white";};
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "LIB_M1928_Thompson";
+this addWeapon "LIB_FLARE_PISTOL";
+this addWeapon "Binocular";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+
+
+
+
+
+
+
+comment "Officer";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+this addVest "fow_v_usmc_thompson";
+this addItemToVest "FirstAidKit";
+this addItemToVest "LIB_50Rnd_45ACP";
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {this addItemToVest "LIB_7Rnd_45ACP";};
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "LIB_M1928_Thompson";
+this addWeapon "LIB_Colt_M1911";
+this addWeapon "Binocular";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+
+
+
+
+
+
+
+
+
+comment "Medic";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+for "_i" from 1 to 2 do {this addItemToUniform "fow_20Rnd_45acp";};
+for "_i" from 1 to 2 do {this addItemToUniform "LIB_7Rnd_45ACP";};
+this addVest "fow_v_us_medic";
+for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
+for "_i" from 1 to 5 do {this addItemToVest "fow_20Rnd_45acp";};
+this addItemToVest "LIB_7Rnd_45ACP";
+this addBackpack "fow_b_uk_bergenpack";
+this addItemToBackpack "Medikit";
+for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "fow_w_m55_reising";
+this addWeapon "LIB_Colt_M1911";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+
+
+
+
+
+
+comment "Radioman";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+for "_i" from 1 to 8 do {this addItemToUniform "LIB_5Rnd_762x63";};
+for "_i" from 1 to 3 do {this addItemToUniform "LIB_5Rnd_762x63_t";};
+this addVest "fow_v_usmc_garand";
+for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
+for "_i" from 1 to 3 do {this addItemToVest "LIB_7Rnd_45ACP";};
+for "_i" from 1 to 3 do {this addItemToVest "LIB_US_Mk_2";};
+this addBackpack "fow_b_us_radio";
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "LIB_M1903A3_Springfield";
+this addWeapon "LIB_Colt_M1911";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+
+
+
+
+
+
+
+comment "Shotgun";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "fow_u_usmc_p41_01_private";
+for "_i" from 1 to 3 do {this addItemToUniform "fow_6Rnd_12G_Slug";};
+this addVest "fow_v_usmc_garand";
+this addItemToVest "FirstAidKit";
+for "_i" from 1 to 2 do {this addItemToVest "LIB_US_Mk_2";};
+for "_i" from 1 to 2 do {this addItemToVest "LIB_7Rnd_45ACP";};
+for "_i" from 1 to 5 do {this addItemToVest "fow_6Rnd_12G_Slug";};
+this addHeadgear "fow_h_us_m1";
+
+comment "Add weapons";
+this addWeapon "fow_w_M1912";
+this addPrimaryWeaponItem "fow_w_acc_M1897_bayo";
+this addWeapon "LIB_Colt_M1911";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+

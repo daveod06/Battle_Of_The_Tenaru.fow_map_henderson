@@ -1,15 +1,5 @@
-// Civilians & Traffic
-//call compile preprocessFileLineNumbers "scripts\Engima\Civilians\Init.sqf";
-//call compile preprocessFileLineNumbers "scripts\Engima\Traffic\Init.sqf";
-
 //EOS Dynamic Combat System
 []execVM "scripts\eos\OpenMe.sqf";
-
-// IED script
-detonateBombs = false;
-//iedMkr=["iedMkr0","iedMkr1","iedMkr2"];
-//[iedMkr,detonateBombs] execVM "scripts\ied.sqf";
-//[] execVM "scripts\ied.sqf";
 
 0 = [] spawn
 {
@@ -19,3 +9,9 @@ playMusic "01";
 sleep 140.0; //where xyz the duration of the music file is
 };
 };
+
+null = [searchlight_0] execVM "AL_searchlight\al_search_light_ini.sqf";
+null = [searchlight_1] execVM "AL_searchlight\al_search_light_ini.sqf";
+null = [searchlight_2] execVM "AL_searchlight\al_search_light_ini.sqf";
+null = [searchlight_3] execVM "AL_searchlight\al_search_light_ini.sqf";
+null = [searchlight_4] execVM "AL_searchlight\al_search_light_ini.sqf";

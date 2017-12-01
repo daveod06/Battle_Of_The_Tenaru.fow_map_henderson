@@ -4575,6 +4575,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
+                name="searchlight_0";
 			};
 			id=360;
 			type="LIB_SU_SearchLight";
@@ -4593,6 +4594,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
+                name="searchlight_1";
 			};
 			id=361;
 			type="LIB_SU_SearchLight";
@@ -4611,6 +4613,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
+                name="searchlight_2";
 			};
 			id=362;
 			type="LIB_SU_SearchLight";
@@ -4628,6 +4631,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
+                name="searchlight_3";
 			};
 			id=363;
 			type="LIB_SU_SearchLight";
@@ -4645,6 +4649,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
+                name="searchlight_4";
 			};
 			id=364;
 			type="LIB_SU_SearchLight";

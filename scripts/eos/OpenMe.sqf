@@ -24,7 +24,7 @@ VictoryColor="colorGreen";	// Colour of marker after completion
 hostileColor="colorRed";	// Default colour when enemies active
 bastionColor="colorOrange";	// Colour for bastion marker
 EOS_DAMAGE_MULTIPLIER=1;	// 1 is default
-EOS_KILLCOUNTER=false;		// Counts killed units
+EOS_KILLCOUNTER=true;		// Counts killed units
 EOS_USE_FLASHLIGHTS=true;   // Attempts to make spawned units use flashlights
 EOS_SUICIDE_CHANCE=0.0;     // Attemps to % of units as suicide bombers 0.0 -1.0
 
@@ -32,4 +32,6 @@ EOS_SUICIDE_CHANCE=0.0;     // Attemps to % of units as suicide bombers 0.0 -1.0
 //null = [["EOSzone_2"],[1,3,80],[1,4,75],[0,0],[0],[0],[0,0],[5,1,350,EAST,TRUE]] call EOS_Spawn;
 //null = [["EOSzone_3"],[1,3,80],[1,4,75],[0,0],[0],[0],[0,0],[5,1,350,EAST,TRUE]] call EOS_Spawn;
 //null = [["EOSmot_1","EOSmot_2"],[0,0],[0,0],[3,1,90],[2,60],[0],[1,0,90],[0,0,350,EAST,FALSE]] call EOS_Spawn;
-null = [["BAS_defend_marker_0"],["BAS_spawn_marker_0",10],[2,2,50],[5,2,80],[2],[0,0],[5,0,EAST],[3*60,5,5*60,FALSE,TRUE]] call Bastion_Spawn;
+null = [["BAS_defend_marker_0"],["BAS_spawn_marker_0",10],[4,4,100],[0,0],[0],[0,0],[7,0,EAST],[3*60,5,5*60,FALSE,TRUE]] call Bastion_Spawn;
+null = [["BAS_defend_marker_1"],["BAS_spawn_marker_1",10],[4,4,100],[0,0],[0],[0,0],[7,0,EAST],[3*60,5,5*60,FALSE,TRUE]] call Bastion_Spawn;
+null = [["BAS_defend_marker_2"],["BAS_spawn_marker_2",10],[4,4,100],[0,0],[0],[0,0],[7,0,EAST],[3*60,5,5*60,FALSE,TRUE]] call Bastion_Spawn;

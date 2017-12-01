@@ -102,8 +102,22 @@ _tempArray=[];
 	_crewPool=	["CUP_O_TK_Crew"];
 	_heliCrew=	["CUP_O_TK_Crew","CUP_O_TK_Pilot"];};
 	
-// ADD CLASSNAMES 	
+// 1942 Imperial Japanese Army
 	if (_faction==7) then {
+	_InfPool=	["fow_s_ija_rifleman","fow_s_ija_rifleman","fow_s_ija_rifleman","fow_s_ija_rifleman","fow_s_ija_rifleman","fow_s_ija_rifleman","fow_s_ija_rifleman_at","fow_s_ija_type99_asst","fow_s_ija_type99_gunner","fow_s_ija_medic","fow_s_ija_nco","fow_s_ija_officer"];	
+	_ArmPool=	["fow_ija_type95_HaGo_3_ija","fow_ija_type95_HaGo_2_ija","fow_ija_type95_HaGo_2_ija","fow_ija_type95_HaGo_1_ija","fow_ija_type95_HaGo_1_ija"];
+	_MotPool=	["","fow_v_type97_truck_open_ija","fow_v_type97_truck_open_ija","fow_v_type97_truck_open_ija","fow_v_type97_truck_ija","fow_v_type97_truck_ija"];
+	_ACHPool=	[];
+	_CHPool=	[];
+	_uavPool=	[];
+	_stPool=	["fow_w_type92_tripod_low_ija","fow_w_type92_tripod_low_ija","fow_w_type92_tripod_low_s_ija","fow_w_type92_tripod_ija","fow_w_type92_tripod_ija","fow_w_type97_mortar_ija","fow_w_6Pounder_ija"];
+	_shipPool=	["fow_usmc_lcvp"];
+	_diverPool=	["fow_s_ija_crewman"];
+	_crewPool=	["fow_s_ija_crewman"];
+	_heliCrew=	["fow_s_ija_pilot"];};
+	
+// ADD CLASSNAMES 	
+	if (_faction==8) then {
 	_InfPool=	[];	
 	_ArmPool=	[];
 	_MotPool=	[];
@@ -115,7 +129,21 @@ _tempArray=[];
 	_diverPool=	[];
 	_crewPool=	[];
 	_heliCrew=	[];};
-	
+
+// ADD CLASSNAMES 	
+	if (_faction==9) then {
+	_InfPool=	[];	
+	_ArmPool=	[];
+	_MotPool=	[];
+	_ACHPool=	[];
+	_CHPool=	[];
+	_uavPool=	[];
+	_stPool=	[];
+	_shipPool=	[];
+	_diverPool=	[];
+	_crewPool=	[];
+	_heliCrew=	[];};
+
 ////////////////////////////////////////////////////////////////////////////////////////
 if (_type==0) then {
 		for "_i" from 0 to 5 do{

@@ -32,6 +32,5 @@ EOS_SUICIDE_CHANCE=0.0;     // Attemps to % of units as suicide bombers 0.0 -1.0
 //null = [["EOSzone_2"],[1,3,80],[1,4,75],[0,0],[0],[0],[0,0],[5,1,350,EAST,TRUE]] call EOS_Spawn;
 //null = [["EOSzone_3"],[1,3,80],[1,4,75],[0,0],[0],[0],[0,0],[5,1,350,EAST,TRUE]] call EOS_Spawn;
 //null = [["EOSmot_1","EOSmot_2"],[0,0],[0,0],[3,1,90],[2,60],[0],[1,0,90],[0,0,350,EAST,FALSE]] call EOS_Spawn;
-null = [["BAS_defend_marker_0"],["BAS_spawn_marker_0",10],[4,4,100],[0,0],[0],[0,0],[7,0,EAST],[3*60,5,5*60,FALSE,TRUE]] call Bastion_Spawn;
-null = [["BAS_defend_marker_1"],["BAS_spawn_marker_1",10],[4,4,100],[0,0],[0],[0,0],[7,0,EAST],[3*60,5,5*60,FALSE,TRUE]] call Bastion_Spawn;
-null = [["BAS_defend_marker_2"],["BAS_spawn_marker_2",10],[4,4,100],[0,0],[0],[0,0],[7,0,EAST],[3*60,5,5*60,FALSE,TRUE]] call Bastion_Spawn;
+null = [["BAS_defend_marker_0"],["BAS_spawn_marker_0",10],[4,4,100],[0,0],[0],[0,0],[7,0,WEST],[8*60,5,5*60,FALSE,TRUE]] call Bastion_Spawn;
+

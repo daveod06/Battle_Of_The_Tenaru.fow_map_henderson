@@ -106,7 +106,7 @@ _tempArray=[];
 	if (_faction==7) then {
 	_InfPool=	["fow_s_ija_rifleman","fow_s_ija_rifleman","fow_s_ija_rifleman","fow_s_ija_rifleman","fow_s_ija_rifleman","fow_s_ija_rifleman","fow_s_ija_rifleman_at","fow_s_ija_type99_asst","fow_s_ija_type99_gunner","fow_s_ija_medic","fow_s_ija_nco","fow_s_ija_officer"];	
 	_ArmPool=	["fow_ija_type95_HaGo_3_ija","fow_ija_type95_HaGo_2_ija","fow_ija_type95_HaGo_2_ija","fow_ija_type95_HaGo_1_ija","fow_ija_type95_HaGo_1_ija"];
-	_MotPool=	["","fow_v_type97_truck_open_ija","fow_v_type97_truck_open_ija","fow_v_type97_truck_open_ija","fow_v_type97_truck_ija","fow_v_type97_truck_ija"];
+	_MotPool=	["fow_v_type97_truck_open_ija","fow_v_type97_truck_open_ija","fow_v_type97_truck_open_ija","fow_v_type97_truck_ija","fow_v_type97_truck_ija"];
 	_ACHPool=	[];
 	_CHPool=	[];
 	_uavPool=	[];
